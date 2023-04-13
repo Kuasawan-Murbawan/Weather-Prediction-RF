@@ -1,5 +1,5 @@
 Streamlit==1.21.0
 
-Pandas version==1.5.3
+Pandas==1.5.3
 
-Joblib version==1.1.1
+Joblib==1.1.1
