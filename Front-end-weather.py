@@ -14,7 +14,7 @@ st.set_page_config(
         'About': "# This is a header. This is an *extremely* cool app!"
     }
 )
-st.write("Streamlit version:", st.__version__)
+
 st.write("For more information, visit [Husyairi](https://github.com/Kuasawan-Murbawan).")
 st.title("Weather Prediction")
 
@@ -74,3 +74,7 @@ precipitationDisplay = str(round(precipitation,1)) + "%"
 col1.metric("Temperature", average_temp, randum)
 col2.metric("Wind", winddisplay, "-8%")
 col3.metric("Precipitation", precipitationDisplay, "4%")
+
+#st.write("Streamlit version:", st.__version__#Streamlit version: 1.21.0
+#st.write("Pandas version:", pd.__version__)  #Pandas version: 1.5.3
+#st.write("Joblib version:", joblib.__version__)# Joblib version: 1.1.1
